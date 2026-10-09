@@ -6,3 +6,4 @@ def weerUtrecht():
     return temp
 
 print(weerUtrecht())
+
