@@ -33,5 +33,12 @@ while True:
     elif keuze == 2:
         weerstation.weerstation()
 
+    elif keuze == 3:
+        smartAppController.smartAppControllerS3()
+
+    elif keuze == 4:
+        break
+
+
 
 
