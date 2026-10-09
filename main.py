@@ -28,13 +28,25 @@ while True:
         continue
 
     elif keuze == 1:
-        weerUtrecht()
+        try:
+            weerUtrecht()
+        except:
+            print("er is iets misgegaan")
+            continue
 
     elif keuze == 2:
-        weerstation.weerstation()
+        try:
+            weerstation.weerstation()
+        except:
+            print("er is iets misgegaan")
+            continue
 
     elif keuze == 3:
-        smartAppController.smartAppControllerS3()
+        try:
+            smartAppController.smartAppControllerS3()
+        except:
+            print("er is iets misgegaan")
+            continue
 
     elif keuze == 4:
         break
