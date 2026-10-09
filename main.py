@@ -1,6 +1,7 @@
 import requests
 from projecten import weerstation
 from projecten import smartAppController
+import sys
 
 def weerUtrecht():
     try:

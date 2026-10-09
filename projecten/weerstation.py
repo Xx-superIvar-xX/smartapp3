@@ -3,7 +3,7 @@ def weerstation():
         while True:
             tempCelcius = input(f"wat is de temperatuur op dag {dag}[C]: ")
             if tempCelcius == "":
-                exit()
+                sys.exit()
             else:
                 try:
                     tempCelcius = float(tempCelcius)
@@ -14,7 +14,7 @@ def weerstation():
         while True:
             windsnelheid = input(f"wat is de windsnelheid op dag {dag}[m/s]: ")
             if windsnelheid == "":
-                exit()
+                sys.exit()
             else:
                 try:
                     windsnelheid = float(windsnelheid)
@@ -25,7 +25,7 @@ def weerstation():
         while True:
             luchtvochtigheid = input(f"wat is de luchtvochtigheid op dag {dag}[%]: ")
             if luchtvochtigheid == "":
-                exit()
+                sys.exit()
             else:
                 try:
                     luchtvochtigheid = float(luchtvochtigheid)
